@@ -27,6 +27,8 @@
         </li>
         {{ end }}
 
+        {{ if .Site.Params.showReadingTime }}
         <li>{{ .ReadingTime }} min read</li>
+        {{ end }}
     </ul>
 </aside>

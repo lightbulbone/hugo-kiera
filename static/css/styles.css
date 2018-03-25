@@ -260,6 +260,14 @@ a {
   }
 }
 
+.center-image, figure.center img, img[src*="center"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  box-shadow: 0 3px 3px #bbbbbb;
+}
+
 .float-image, figure.float img, img[src*="float"] {
   width: 300px;
   float: left;
